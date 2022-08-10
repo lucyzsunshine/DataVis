@@ -1,6 +1,4 @@
-Website Link: https://lyip12.github.io/loneliness/
-Video Link: https://vimeo.com/378056012/
-Process Book Link: https://docs.google.com/document/d/1tfGlDC2nlkP5z6MOsphH44s_o-q7NtD8WIOEcmKQyu8/edit?usp=sharing/
+
 
 Our Code:
 
