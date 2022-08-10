@@ -1,0 +1,501 @@
+/* General */
+body{
+    background-color: #161c26 !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* TEXT */
+
+h1 {
+    font-family: 'Roboto', sans-serif !important;
+    color: white;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.3em !important;
+    margin-right: -0.3em !important;
+    text-align: right;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif !important;
+    color: white;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.2em !important;
+    margin-bottom: 30px;
+    margin-right: -0.2em !important;
+    text-align: right;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif; 
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    border: none;
+    border-radius: 0px !important;
+}
+
+.btn-light {
+    font-family: 'Roboto', sans-serif; 
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 6px;
+    background-color: #333a46;
+    border: none;
+}
+
+.btn-light:hover {
+    font-family: 'Roboto', sans-serif; 
+    color: #384661 !important;
+    background: white;
+}
+
+h3.cursive {
+    font-family: 'Sacramento', cursive !important;
+    font-weight: 300 !important;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif !important;
+    color: white;
+    font-size: 26px !important;
+    line-height: 32px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.1em !important;
+}
+
+
+em {
+    color: #ff6666;
+}
+
+b {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 700;
+    text-align: right;
+}
+
+#q1{
+    z-index:99;
+}
+
+p,
+form,
+.tooltip{
+    font-family: 'Roboto', sans-serif; 
+    color: #8293b6 !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    text-align: left;
+}
+
+.yipnode text {
+    font-family: 'Roboto', sans-serif; 
+    color: #8293b6 !important;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.nodetitle{
+    font-size: 20px !important;
+    letter-spacing: 0.2em !important;
+    font-weight: 400 !important;
+}
+
+p.small {
+    color: white;
+    font-size: 12px !important;
+}
+
+a.hyprtxt {
+    color: #ff6666;
+    font-weight: 700;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+/* IMAGES */
+
+img.icon {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.sitting {
+    background-image: url("img/sitting.png");
+    background-position:center;
+    background-size:contain;
+}
+
+/* DIVS + FORMAT STUFF */
+
+.short{
+    margin: 50px 30vw 50px 30vw;
+}
+
+.shortish{
+    margin: 50px 20vw 50px 20vw;
+}
+
+.dugy-shortish{
+    margin: 30px 20vw 50px 20vw;
+}
+
+
+div.section {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1px;
+    background: #8293b6;
+}
+
+.parallax {
+    background-image: url("img/bokeh.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yipplaceholder {
+    height:20vw;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+/* TREE */
+.yipnode circle {
+    /*fill: #8293b6;*/
+    stroke: none;
+}
+
+.yiplink {
+    fill: none;
+    stroke: #8293b6;
+    stroke-width: 1px;
+    opacity: 70%;
+}
+
+.yipbaraxis line,
+.yipbaraxis path{
+    stroke: #8293b6;
+}
+
+.yipbaraxis text{
+    fill:#8293b6;
+    font-size: 18px;
+}
+
+/* CONTAINER */
+.dugy-svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    /* aspect ratio */
+    vertical-align: top;
+    /*overflow: hidden;*/
+}
+.dugy-svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    /* aspect ratio */
+    vertical-align: top;
+    /*overflow: hidden;*/
+}
+
+.yipsvg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.yip2svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 70%;
+    /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.scattersvg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.containera {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.BeforeScroll
+{
+    height: 100px; /*Whatever you want*/
+    width: 100%; /*Whatever you want*/
+    display: none;
+}
+
+
+/*Use this class when you want your content to be shown after some scroll*/
+.AfterScroll
+{
+    height: 100px; /*Whatever you want*/
+    width: 100%; /*Whatever you want*/
+    display: block;
+}
+
+.axis.scatter path{
+    stroke: #8293b6;
+}
+
+.axis.scatter text{
+    fill: #8293b6;
+}
+
+
+.axis.scatter line{
+    stroke: #8293b6;
+}
+
+/*Matrix Section*/
+#matrixvis{
+    position: -webkit-sticky;
+    position: sticky;
+    top:20vh;
+    left:20vh;
+}
+.step {
+    width: 25vw;
+    margin-left: 10vh;
+    height: 80vh;
+    text-align: left;
+}
+
+.scattertooltip {
+    pointer-events: none;
+}
+
+.fill-circle{
+    /*transition: opacity 0.5s ;*/
+}
+
+.matrixbutton {
+    color: #ffffff;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    width: 80px;
+    word-wrap: break-word;
+
+}
+
+/* radial area chart */
+
+.dugy-radial-axis line{
+    fill: none;
+    stroke:#8293b6;
+    opacity:   1;
+    stroke-width: 0.5;
+}
+.dugy-radial-axis path{
+    fill: none;
+    stroke: #888888;
+    stroke-opacity: 0.3;
+    stroke-width: 0.5;
+}
+.dugy-radial-axis text{
+    fill:#8293b6;
+    font-size:  7px;
+    fill-opacity: 0.8;
+}
+
+h3#dugy-radial-currentCountry
+{
+    text-align: left;
+}
+
+/* particle vis */
+#dugy-c{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#dugy-c-legend{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+div.loneliness-three-dimenstions{
+    text-align: center;
+}
+
+div.center-highlighted-words h3{
+    text-align: center;
+}
+
+h5#dugy-radial-topfactors{
+    color: #8293b6;
+}
+
+/* Vertical Navigation Bar*/
+
+#cd-vertical-nav a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* No Touch devices */
+.cd-nav-trigger {
+    display: none;
+}
+
+#cd-vertical-nav {
+    position: fixed;
+    left:20px;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+#cd-vertical-nav li {
+    text-align: left;
+
+}
+#cd-vertical-nav a {
+    display: inline-block;
+    /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+#cd-vertical-nav a {
+    display: inline-block;
+    /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+#cd-vertical-nav a:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#cd-vertical-nav a span {
+    float: left;
+    display: inline-block;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    transform: scale(0.6);
+}
+#cd-vertical-nav a:hover span {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity :0.8;
+}
+#cd-vertical-nav a:hover .cd-label {
+    opacity: 1;
+    z-index: 0;
+}
+#cd-vertical-nav a.is-selected .cd-dot {
+    background-color: white;
+    opacity: 1;
+}
+.cd-dot {
+    position: relative;
+    /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
+    top: 8px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
+    -moz-transition: -moz-transform 0.2s, background-color 0.5s;
+    transition: transform 0.2s, background-color 0.5s;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    opacity: 0.1;
+}
+
+#cd-vertical-nav .cd-label {
+    position: relative;
+    color: white;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 12px;
+    line-height: 6px ;
+    font-size: 0.875rem;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+    opacity: 0;
+    -webkit-transform-origin: 100% 50%;
+    -moz-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    -o-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    z-index:0;
+}
